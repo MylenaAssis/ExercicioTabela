@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefônica</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/noun-telefone-630465.png" alt="Icone telefone">
+            <h1>Lista telefônica</h1>
+        </header>
+        <main>
+            <div class="container">
+                <form id="listaTelefonica">
+                    <input type="text" placeholder="Nome" id="campoNome">
+                    <input type="number" placeholder="Telefone" id="campoTelefone">
+                    <button type="submit" id="Botão">Inserir</button>
+                </form>
+
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td>Nome1</td>
+                        <td>24 988154371</td>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total inserido: </th>
+                            <td>3</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
